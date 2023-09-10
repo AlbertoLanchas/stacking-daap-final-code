@@ -129,7 +129,8 @@
           <!-- Navbar Action Button -->
           <ul class="navbar-nav action">
             <li class="nav-item ml-2">
-              <a class="btn ml-lg-auto btn-bordered-white"><i class="icon-wallet mr-md-2"></i>Wallet Connect</a>
+              <a href="wallet-connect.html" class="btn ml-lg-auto btn-bordered-white"><i
+                  class="icon-wallet mr-md-2"></i>Wallet Connect</a>
             </li>
           </ul>
         </div>
@@ -144,11 +145,11 @@
           <div class="col-12">
             <!-- Breamcrumb Content -->
             <div class="breadcrumb-content text-center">
-              <h2 class="m-0">Analytic</h2>
+              <h2 class="m-0">Blog</h2>
               <ol class="breadcrumb d-flex justify-content-center">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Project</a></li>
-                <li class="breadcrumb-item active">Analytic</li>
+                <li class="breadcrumb-item"><a href="#">Community</a></li>
+                <li class="breadcrumb-item active">Blog</li>
               </ol>
             </div>
           </div>
@@ -157,159 +158,268 @@
     </section>
     <!-- ***** Breadcrumb Area End ***** -->
 
-    <!-- ***** Project Area Start ***** -->
-    <section class="project-area explore-area">
+    <!-- ***** Blog Area Start ***** -->
+    <section class="blog-area load-more">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-7">
-            <!-- Intro -->
-            <div class="intro text-center">
-              <div class="intro-content">
-                <span class="intro-text">Transaction</span>
-                <h3 class="mt-3 mb-0">Your Profile</h3>
+        <div class="row items">
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="./img/blog/blog_1.jpg" alt="" /></a>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="contract-user">
-          <!-- <div class="contract-user-profile">
-              <img src="assets/img/content/team_1.png" alt="" />
-              <div class="contract-user-profile-info">
-                <p><strong>Address:</strong></p>
-                <span class="contract-space"><strong>Address:</strong></span>
-                <span class="contract-space"><strong>Address:</strong></span>
-                <span class="contract-space"><strong>Address:</strong></span>
-                <span class="contract-space"><strong>Address:</strong></span>
-                <span class="contract-space"><strong>Address:</strong></span>
-                <p class="contract-paragraph">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Corporis tenetur rem cum voluptate repellendus similique
-                  molestias aperiam atque fugiat asperiores labore totam amet
-                  reprehenderit in at non, placeat a iusto.
-                </p>
-              </div>
-            </div> -->
-        </div>
-
-        <div class="row explore-items items inner dataUserTransaction">
-          <!-- <div
-              class="col-12 col-md-6 col-lg-4 item explore-item"
-              data-groups='["ongoing","ended"]'
-            >
-              <div class="card project-card">
-                <div class="media">
-                  <a href="project-details.html">
-                    <img
-                      class="card-img-top avatar-max-lg"
-                      src="assets/img/content/thumb_${i + 1}.png"
-                      alt=""
-                    />
-                  </a>
-                  <div class="media-body ml-4">
-                    <a href="project-details.html">
-                      <h4 class="m-0">#tbCoders</h4>
-                    </a>
-                    <div class="countdown-times">
-                      <h6 class="my-2">Transaction No : ${i + 1}</h6>
-                      <div
-                        class="countdown d-flex"
-                        data-date="2022-06-30"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card-body">
-                  <div class="items">
-                    <div class="single-item">
-                      <span>Amount</span>
-                      <span>100k</span>
-                    </div>
-
-                    <div class="single-item">
-                      <span>Gas</span>
-                      <span>${transaction.gasUsed}</span>
-                    </div>
-
-                    <div class="single-item">
-                      <span>Status</span>
-                      <span>${transaction.status}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="project-footer d-flex align-items-center mt-4 mt-md-5"
-                >
-                  <a
-                    class="btn btn-bordered-white btn-smaller"
-                    target="_blank"
-                    href="https://mumbai.polygonscan.com/tx/${transaction.transactionHash}"
-                    >Transaction
-                  </a>
-
-                  <div class="social-share ml-auto">
-                    <ul class="d-flex list-unstyled">
-                      <li>
-                        <a href="#">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fab fa-telegram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fas fa-globe"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fab fa-discord"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="blockchain-icon">
-                  <img src="assets/img/content/ethereum.png" alt="" />
-                </div>
-              </div>
-            </div> -->
-        </div>
-      </div>
-    </section>
-    <!-- ***** Project Area End ***** -->
-
-    <!-- ***** CTA Area Start ***** -->
-    <section class="cta-area p-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 card">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-md-5 text-center">
-                <img src="assets/img/content/cta_thumb.png" alt="" />
-              </div>
-              <div class="col-12 col-md-6 mt-4 mt-md-0">
-                <h2 class="m-0">Apply for IGO</h2>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Junaid Hasan</a></li>
+                  <li><a href="blog-single.html">Feb 19, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>Decentralizing NFT metadata on GameOn</h4>
+                </a>
                 <p>
-                  Get access to huge set of tools to seamlessly handle your
-                  game's integration with blockchain.
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
                 </p>
-                <a class="btn btn-bordered active d-inline-block" href="apply.html"><i
-                    class="icon-rocket mr-2"></i>Apply Now</a>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
               </div>
             </div>
-            <a class="cta-link" href="apply.html"></a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_2.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Junaid Hasan</a></li>
+                  <li><a href="blog-single.html">Feb 19, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>The Lost Art Of Photography</h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_3.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Sara Scotch</a></li>
+                  <li><a href="blog-single.html">Jul 17, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>Save Thousands Of Lives Through This NFT</h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_4.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">John Deo</a></li>
+                  <li><a href="blog-single.html">Aug 22, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>Golden State announce legacy NFT collection</h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_5.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Yasmin Akter</a></li>
+                  <li><a href="blog-single.html">Mar 19, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>Control Your Own Top Level Domain on the DNS & ENS</h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_6.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Arham</a></li>
+                  <li><a href="blog-single.html">Jan 31, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>Klaytn NFTs are coming to GameOn</h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="/img/blog/blog_7.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Artnox</a></li>
+                  <li><a href="blog-single.html">Mar 05, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>
+                    GameOn raises $12M to scale the largest marketplace for
+                    NFTs
+                  </h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_8.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">William</a></li>
+                  <li><a href="blog-single.html">May 12, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>How to safely purchase NFTs on GameOn</h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <!-- Single Blog -->
+            <div class="card blog-card">
+              <!-- Blog Thumb -->
+              <div class="blog-thumb">
+                <a href="blog-single.html"><img src="img/blog/blog_9.jpg" alt="" /></a>
+              </div>
+              <!-- Blog Content -->
+              <div class="blog-content">
+                <!-- Meta Info -->
+                <ul class="meta-info d-flex justify-content-between list-unstyled mt-4">
+                  <li>By <a href="blog-single.html">Johnson</a></li>
+                  <li><a href="blog-single.html">Sep 01, 2022</a></li>
+                </ul>
+                <!-- Blog Title -->
+                <a href="blog-single.html">
+                  <h4>
+                    The beginner’s guide to creating & selling digital art
+                    NFTs
+                  </h4>
+                </a>
+                <p>
+                  Lorem ipsum dolor, sit voluptatem consectetur adipisicing
+                  elit.
+                </p>
+                <!-- Blog Button -->
+                <a class="btn content-btn" href="blog-single.html">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a id="load-btn" class="btn btn-bordered-white mt-4 mt-md-5" href="#">Load More</a>
           </div>
         </div>
       </div>
     </section>
-    <!-- ***** CTA Area End ***** -->
+    <!-- ***** Blog Area End ***** -->
 
     <!--====== Footer Area Start ======-->
     <footer class="footer-area">
@@ -457,14 +567,7 @@
   <script src="assets/js/vendor/shuffle.min.js"></script>
 
   <!-- Active js -->
-
-  <script src="js/Data/userTransaction.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="js/web3.min.js"></script>
-
-  <script src="js/header.js"></script>
-  <script src="js/common.js"></script>
-  <script src="js/index.js"></script>
 </body>
 
 </html>
